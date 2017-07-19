@@ -1,0 +1,26 @@
+1、布局文件
+[html] view plain copy print?在CODE上查看代码片派生到我的代码片
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >  
+  
+    <WebView  
+        android:id="@+id/webView1"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent" />  
+  
+</LinearLayout>  
+
+2、MainActivity的onCreate()方法中
+[java] view plain copy print?在CODE上查看代码片派生到我的代码片
+WebView webview = (WebView)findViewById(R.id.webView1);//获取布局管理器中添加的WebView组件  
+        StringBuilder sb = new StringBuilder();//创建一个字符串构建器，将要显示的HTML内容放置在该构建器中  
+        sb.append("<div>选择选项，然后从以下选项中进行选择：</div>");  
+        sb.append("<ul>");  
+        sb.append("<li>编辑内容：用于增加、移动和删除桌面上的快捷工具。</li>");  
+        sb.append("<li>隐藏内容：用于隐藏桌面上的小工具。</li>");  
+        sb.append("<li>显示内容：用于显示桌面上的小工具。</li>");  
+        sb.append("</ul>");  
+        webview.loadDataWithBaseURL(null, sb.toString(), "text/html", "utf-8", null);//加载数据  
