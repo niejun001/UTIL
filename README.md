@@ -14,9 +14,12 @@
 	jni开发笔记：	as的jni用法
 	ExamplesFromMyBlog-master：	侧滑加沉浸式，在5.x上也能适配沉浸式
 	
-	
-安卓屏幕适配像素转换工具：
-http://labs.rampinteractive.co.uk/android_dp_px_calculator/
-使用方法：
-http://blog.csdn.net/hello_1s/article/details/52604693
-http://blog.csdn.net/wawxf2008/article/details/47379577
+	安卓屏幕适配像素转换工具：
+		http://labs.rampinteractive.co.uk/android_dp_px_calculator/
+		
+	使用方法：
+		http://blog.csdn.net/hello_1s/article/details/52604693
+		http://blog.csdn.net/wawxf2008/article/details/47379577 
+		
+	安卓屏幕适配之dimens适配：
+		UI切图给的单位是px，px不适用于安卓，因为机型多，分辨率不一样，采用dimens，生成不同的dimens文件，这样就可以直接写UI给的px了，系统会直接找到对		 应分辨率的dimens文件。
