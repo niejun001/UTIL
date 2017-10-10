@@ -15,3 +15,8 @@
 	ExamplesFromMyBlog-master：	侧滑加沉浸式，在5.x上也能适配沉浸式
 	
 	
+安卓屏幕适配像素转换工具：
+http://labs.rampinteractive.co.uk/android_dp_px_calculator/
+使用方法：
+http://blog.csdn.net/hello_1s/article/details/52604693
+http://blog.csdn.net/wawxf2008/article/details/47379577
