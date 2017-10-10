@@ -22,4 +22,5 @@
 		http://blog.csdn.net/wawxf2008/article/details/47379577 
 		
 	安卓屏幕适配之dimens适配：
-		UI切图给的单位是px，px不适用于安卓，因为机型多，分辨率不一样，采用dimens，生成不同的dimens文件，这样就可以直接写UI给的px了，系统会直接找到对		 应分辨率的dimens文件。
+		UI切图给的单位是px，px不适用于安卓，因为机型多，分辨率不一样，采用dimens，生成不同的dimens文件，这样就可以直接写UI给的px了，系统会直接找到对应分辨率的dimens文件。
+		http://blog.csdn.net/qq_34161388/article/details/73469319
